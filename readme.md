@@ -50,7 +50,7 @@ These findings directly informed the design of the machine learning pipeline, pa
 
 The repository follows a modular structure to support reusability and clarity across the machine learning pipeline:
 
-
+```
 ├── bmarket.db # SQLite database (excluded from GitHub as instructed)
 ├── eda.ipynb # Jupyter notebook containing Task 1: EDA
 ├── readme.md # Project documentation
@@ -63,7 +63,7 @@ The repository follows a modular structure to support reusability and clarity ac
 ├── main.py # Entry point that ties all pipeline components together
 ├── models.py # Defines and configures machine learning models
 └── preprocessing.py # Preprocessing logic and feature engineering steps
-
+```
 ### Execution Instructions
 
 1. **Running the Pipeline**
