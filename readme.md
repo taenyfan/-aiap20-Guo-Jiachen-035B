@@ -1,7 +1,7 @@
 # AIAP Batch 20 Technical Assessment
 
-Full Name:
-Email:
+Full Name: Guo Jiachen
+Email: facejiachen@hotmail.com
 
 ## Introduction
 
