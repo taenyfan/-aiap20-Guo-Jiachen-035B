@@ -51,19 +51,18 @@ These findings directly informed the design of the machine learning pipeline, pa
 The repository follows a modular structure to support reusability and clarity across the machine learning pipeline:
 
 
-├── bmarket.db               # SQLite database (excluded from GitHub as instructed)
-├── eda.ipynb                # Jupyter notebook containing Task 1: EDA
-├── readme.md                # Project documentation
-├── requirements.txt         # Python dependencies for pipeline execution
-├── run.sh                   # Bash script to execute the machine learning pipeline
-└── src/                     # Python scripts implementing the pipeline
-├────  data_loader.py        # Loads and queries data from the SQLite database
-├──── ensemble.py            # Logic for combining model predictions (if applicable)
-├──── evaluate.py            # Performance evaluation of trained models
-├──── main.py                # Entry point that ties all pipeline components together
-├──── models.py              # Defines and configures machine learning models
-├──── preprocessing.py       # Preprocessing logic and feature engineering steps
-
+├── bmarket.db # SQLite database (excluded from GitHub as instructed)
+├── eda.ipynb # Jupyter notebook containing Task 1: EDA
+├── readme.md # Project documentation
+├── requirements.txt # Python dependencies for pipeline execution
+├── run.sh # Bash script to execute the machine learning pipeline
+└── src/ # Python scripts implementing the pipeline
+├── data_loader.py # Loads and queries data from the SQLite database
+├── ensemble.py # Logic for combining model predictions (if applicable)
+├── evaluate.py # Performance evaluation of trained models
+├── main.py # Entry point that ties all pipeline components together
+├── models.py # Defines and configures machine learning models
+└── preprocessing.py # Preprocessing logic and feature engineering steps
 
 ### Execution Instructions
 
